@@ -725,7 +725,7 @@ body {
   height: 40px;
   border-radius: 4px;
   padding: 0 38px;
-  border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.4));
+  border: 1px solid rgba(46, 47, 66, 0.4);
   outline: transparent;
 }
 
@@ -760,6 +760,7 @@ body {
   padding: 8px 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   resize: none;
+  outline: transparent;
 }
 
 .modal-textarea::placeholder {
@@ -767,4 +768,8 @@ body {
   font-size: 12px;
   line-height: 1.6;
   letter-spacing: 0.04em;
+}
+
+.modal-textarea:focus {
+  border-color: var(--color-iris);
 }
