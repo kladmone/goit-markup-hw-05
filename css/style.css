@@ -865,7 +865,8 @@ body {
   text-decoration-line: underline;
 }
 
-.check-text span {
+.check-text .checkbox-span {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 16px;
@@ -883,10 +884,6 @@ body {
 
 .modal-checkbox {
   margin-bottom: 24px;
-}
-
-.check-text .checkbox-span {
-  display: inline-flex;
 }
 
 .modal-check:checked + .check-text .checkbox-span {
